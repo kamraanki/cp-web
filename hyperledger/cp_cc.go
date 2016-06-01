@@ -85,8 +85,8 @@
 		City  	  string  `json:"discount"`
 		State	  string  `json:"maturity"`
 		Owner     string  `json:"owner"`
-		filename  string  `json:"filename"`
-		md5hash   string  `json:"md5hash"`
+		Filename  string  `json:"filename"`
+		Md5hash   string  `json:"md5hash"`
 		Issuer    string  `json:"issuer"`
 		IssueDate string  `json:"issueDate"`
 	}
